@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eclipse Ótica — Armações, lentes e exame de vista em Foz do Iguaçu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stely.css">
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a href="#top" class="logo" aria-label="Eclipse Ótica">
+      <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20" r="19" stroke="#ff6a1a" stroke-width="1.4"/>
+        <circle cx="20" cy="20" r="11" fill="#ff6a1a"/>
+        <circle cx="16" cy="17" r="7" fill="#0b0a09"/>
+      </svg>
+      <span class="logo-text">ECLIPSE <span>ÓTICA</span></span>
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="#catalogo">Armações</a>
+      <a href="#lentes">Lentes &amp; tecnologia</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="nav-cta" href="https://wa.me/5545999999999?text=Ol%C3%A1!%20Quero%20agendar%20um%20exame%20de%20vista." target="_blank" rel="noopener">Agendar exame</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <div class="eyebrow">Ótica de bairro, olhar de especialista</div>
+        <h1>Enxergar bem começa antes da lente</h1>
+        <p>Armações selecionadas, lentes de última geração e um exame de vista feito com calma. Em Foz do Iguaçu, cuidamos da sua visão como se fosse a nossa.</p>
+        <div class="hero-ctas">
+          <a class="btn-primary" href="#catalogo">Ver catálogo de armações</a>
+          <a class="btn-ghost" href="https://wa.me/5545999999999?text=Ol%C3%A1!%20Quero%20agendar%20um%20exame%20de%20vista." target="_blank" rel="noopener">Agende seu exame</a>
+        </div>
+      </div>
+      <div class="eclipse-art">
+        <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g stroke="#ff6a1a" stroke-width="2" opacity="0.55">
+            <line x1="200" y1="10" x2="200" y2="45"/>
+            <line x1="200" y1="355" x2="200" y2="390"/>
+            <line x1="10" y1="200" x2="45" y2="200"/>
+            <line x1="355" y1="200" x2="390" y2="200"/>
+            <line x1="68" y1="68" x2="92" y2="92"/>
+            <line x1="308" y1="308" x2="332" y2="332"/>
+            <line x1="332" y1="68" x2="308" y2="92"/>
+            <line x1="92" y1="308" x2="68" y2="332"/>
+          </g>
+          <circle cx="200" cy="200" r="130" fill="#ff6a1a"/>
+          <circle cx="170" cy="180" r="118" fill="#0b0a09"/>
+          <circle cx="170" cy="180" r="118" fill="none" stroke="#ff6a1a" stroke-width="1"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= STATS ================= -->
+  <section class="stats">
+    <div class="wrap">
+      <div class="stat"><b>15 anos</b><span>cuidando da visão da cidade</span></div>
+      <div class="stat"><b>+20 marcas</b><span>de armações e lentes</span></div>
+      <div class="stat"><b>1 ano</b><span>de garantia nas lentes</span></div>
+      <div class="stat"><b>R$ 0</b><span>no exame de vista</span></div>
+    </div>
+  </section>
+
+  <!-- ================= CATÁLOGO ================= -->
+  <section class="section catalog" id="catalogo">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-tag">Catálogo</div>
+        <h2>Armações para cada tipo de rosto e rotina</h2>
+        <p>Do dia a dia no trabalho ao sol de domingo. Preços já incluem armação; a lente é escolhida à parte, com nossa ajuda.</p>
+      </div>
+
+      <div class="filters" id="filters">
+        <button class="filter-btn active" data-filter="todas">Todas</button>
+        <button class="filter-btn" data-filter="feminino">Feminino</button>
+        <button class="filter-btn" data-filter="masculino">Masculino</button>
+        <button class="filter-btn" data-filter="infantil">Infantil</button>
+        <button class="filter-btn" data-filter="solar">Solar</button>
+      </div>
+
+      <div class="grid-cards" id="cardGrid">
+
+        <div class="card" data-cat="feminino">
+          <div class="card-art"><svg viewBox="0 0 140 60"><circle cx="38" cy="30" r="22" fill="none" stroke="#171412" stroke-width="4"/><circle cx="102" cy="30" r="22" fill="none" stroke="#171412" stroke-width="4"/><path d="M60 30h20" stroke="#171412" stroke-width="4"/><path d="M16 30H2" stroke="#ff6a1a" stroke-width="4"/><path d="M124 30h14" stroke="#ff6a1a" stroke-width="4"/></svg></div>
+          <h3>Modelo Aurora</h3>
+          <div class="desc">Redonda em acetato preto, leve e confortável para uso diário.</div>
+          <div class="card-foot"><span class="price">R$ 249,90</span><span class="tag">Feminino</span></div>
+        </div>
+
+        <div class="card" data-cat="masculino">
+          <div class="card-art"><svg viewBox="0 0 140 60"><rect x="16" y="14" width="44" height="32" rx="3" fill="none" stroke="#171412" stroke-width="4"/><rect x="80" y="14" width="44" height="32" rx="3" fill="none" stroke="#171412" stroke-width="4"/><path d="M60 30h20" stroke="#171412" stroke-width="4"/><path d="M16 30H2" stroke="#ff6a1a" stroke-width="4"/><path d="M124 30h14" stroke="#ff6a1a" stroke-width="4"/></svg></div>
+          <h3>Modelo Nexus</h3>
+          <div class="desc">Quadrada em titânio grafite, estrutura resistente para o dia inteiro.</div>
+          <div class="card-foot"><span class="price">R$ 389,90</span><span class="tag">Masculino</span></div>
+        </div>
+
+        <div class="card" data-cat="feminino">
+          <div class="card-art"><svg viewBox="0 0 140 60"><path d="M16 34c0-14 12-20 24-20s22 8 22 20-10 16-22 16-24-2-24-16z" fill="none" stroke="#171412" stroke-width="4"/><path d="M62 34c0-14 12-20 24-20s22 8 22 20-10 16-22 16-24-2-24-16z" fill="none" stroke="#171412" stroke-width="4"/><path d="M22 16l10-6" stroke="#ff6a1a" stroke-width="4"/><path d="M118 16l-10-6" stroke="#ff6a1a" stroke-width="4"/></svg></div>
+          <h3>Modelo Vega</h3>
+          <div class="desc">Formato gatinho em acetato âmbar, um toque retrô e elegante.</div>
+          <div class="card-foot"><span class="price">R$ 279,90</span><span class="tag">Feminino</span></div>
+        </div>
+
+        <div class="card" data-cat="masculino">
+          <div class="card-art"><svg viewBox="0 0 140 60"><rect x="14" y="18" width="46" height="24" rx="2" fill="none" stroke="#171412" stroke-width="4"/><rect x="80" y="18" width="46" height="24" rx="2" fill="none" stroke="#171412" stroke-width="4"/><path d="M60 30h20" stroke="#171412" stroke-width="4"/><path d="M14 28H2" stroke="#ff6a1a" stroke-width="4"/><path d="M126 28h12" stroke="#ff6a1a" stroke-width="4"/></svg></div>
+          <h3>Modelo Orion</h3>
+          <div class="desc">Retangular em metal fosco, discreta e versátil para o escritório.</div>
+          <div class="card-foot"><span class="price">R$ 319,90</span><span class="tag">Masculino</span></div>
+        </div>
+
+        <div class="card" data-cat="infantil">
+          <div class="card-art"><svg viewBox="0 0 140 60"><circle cx="40" cy="30" r="18" fill="none" stroke="#ff6a1a" stroke-width="4"/><circle cx="100" cy="30" r="18" fill="none" stroke="#ff6a1a" stroke-width="4"/><path d="M58 30h24" stroke="#171412" stroke-width="4"/></svg></div>
+          <h3>Modelo Pulsar Jr.</h3>
+          <div class="desc">Estrutura flexível e leve, feita para resistir à rotina das crianças.</div>
+          <div class="card-foot"><span class="price">R$ 189,90</span><span class="tag">Infantil</span></div>
+        </div>
+
+        <div class="card" data-cat="infantil">
+          <div class="card-art"><svg viewBox="0 0 140 60"><circle cx="38" cy="30" r="19" fill="none" stroke="#171412" stroke-width="4"/><circle cx="102" cy="30" r="19" fill="none" stroke="#171412" stroke-width="4"/><path d="M57 30h26" stroke="#ff6a1a" stroke-width="4"/></svg></div>
+          <h3>Modelo Nova</h3>
+          <div class="desc">Redonda e coloria, super leve para os pequenos usarem sem incômodo.</div>
+          <div class="card-foot"><span class="price">R$ 179,90</span><span class="tag">Infantil</span></div>
+        </div>
+
+        <div class="card" data-cat="solar masculino">
+          <div class="card-art"><svg viewBox="0 0 140 60"><path d="M16 26h44v14a4 4 0 01-4 4H20a4 4 0 01-4-4V26z" fill="#171412"/><path d="M80 26h44v14a4 4 0 01-4 4H84a4 4 0 01-4-4V26z" fill="#171412"/><path d="M60 28h20" stroke="#171412" stroke-width="4"/><path d="M16 22H4" stroke="#ff6a1a" stroke-width="4"/><path d="M124 22h12" stroke="#ff6a1a" stroke-width="4"/></svg></div>
+          <h3>Modelo Corona</h3>
+          <div class="desc">Aviador solar com lente polarizada, proteção total para dirigir.</div>
+          <div class="card-foot"><span class="price">R$ 349,90</span><span class="tag">Solar</span></div>
+        </div>
+
+        <div class="card" data-cat="solar feminino">
+          <div class="card-art"><svg viewBox="0 0 140 60"><circle cx="40" cy="30" r="24" fill="#171412"/><circle cx="100" cy="30" r="24" fill="#171412"/><path d="M62 30h16" stroke="#171412" stroke-width="4"/><path d="M16 24H4" stroke="#ff6a1a" stroke-width="4"/><path d="M124 24h12" stroke="#ff6a1a" stroke-width="4"/></svg></div>
+          <h3>Modelo Solstício</h3>
+          <div class="desc">Oversized com proteção UV400, para os dias de sol forte na fronteira.</div>
+          <div class="card-foot"><span class="price">R$ 329,90</span><span class="tag">Solar</span></div>
+        </div>
+
+        <div class="card" data-cat="masculino feminino">
+          <div class="card-art"><svg viewBox="0 0 140 60"><rect x="16" y="16" width="42" height="28" rx="4" fill="none" stroke="#171412" stroke-width="4"/><rect x="82" y="16" width="42" height="28" rx="4" fill="none" stroke="#171412" stroke-width="4"/><path d="M58 30h24" stroke="#ff6a1a" stroke-width="4"/></svg></div>
+          <h3>Modelo Zenith</h3>
+          <div class="desc">Quadrada sofisticada em acetato preto com detalhe laranja.</div>
+          <div class="card-foot"><span class="price">R$ 359,90</span><span class="tag">Unissex</span></div>
+        </div>
+
+        <div class="card" data-cat="feminino">
+          <div class="card-art"><svg viewBox="0 0 140 60"><circle cx="38" cy="30" r="21" fill="none" stroke="#171412" stroke-width="3"/><circle cx="102" cy="30" r="21" fill="none" stroke="#171412" stroke-width="3"/><path d="M59 30h22" stroke="#171412" stroke-width="3"/><circle cx="38" cy="30" r="21" fill="none" stroke="#ff6a1a" stroke-width="1"/></svg></div>
+          <h3>Modelo Halo</h3>
+          <div class="desc">Redonda clássica em metal com acabamento dourado escovado.</div>
+          <div class="card-foot"><span class="price">R$ 299,90</span><span class="tag">Feminino</span></div>
+        </div>
+
+        <div class="card" data-cat="masculino">
+          <div class="card-art"><svg viewBox="0 0 140 60"><rect x="14" y="15" width="48" height="30" rx="6" fill="none" stroke="#171412" stroke-width="4"/><rect x="78" y="15" width="48" height="30" rx="6" fill="none" stroke="#171412" stroke-width="4"/><path d="M62 30h16" stroke="#ff6a1a" stroke-width="4"/></svg></div>
+          <h3>Modelo Titan</h3>
+          <div class="desc">Estrutura robusta em TR90 flexível, feita para durar anos.</div>
+          <div class="card-foot"><span class="price">R$ 269,90</span><span class="tag">Masculino</span></div>
+        </div>
+
+        <div class="card" data-cat="masculino feminino solar">
+          <div class="card-art"><svg viewBox="0 0 140 60"><circle cx="38" cy="30" r="20" fill="#ff6a1a"/><circle cx="102" cy="30" r="20" fill="#ff6a1a"/><circle cx="30" cy="24" r="9" fill="#171412"/><circle cx="94" cy="24" r="9" fill="#171412"/><path d="M58 30h24" stroke="#171412" stroke-width="4"/></svg></div>
+          <h3>Modelo Eclipse</h3>
+          <div class="desc">Edição especial da casa, preto e laranja com acabamento fosco.</div>
+          <div class="card-foot"><span class="price">R$ 429,90</span><span class="tag">Edição especial</span></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= LENTES E TECNOLOGIA ================= -->
+  <section class="section lenses" id="lentes">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-tag">Lentes &amp; tecnologia</div>
+        <h2>A armação é só metade da história</h2>
+        <p>Explicamos cada tecnologia em conversa, sem termos técnicos difíceis, para você escolher a lente certa para o seu grau e sua rotina.</p>
+      </div>
+      <div class="tech-grid">
+
+        <div class="tech-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 12s4-6 10-6 10 6 10 6-4 6-10 6-10-6-10-6z"/><circle cx="12" cy="12" r="3"/></svg>
+          <h3>Antirreflexo</h3>
+          <p>Reduz os reflexos de telas, faróis e lâmpadas, deixando a visão noturna mais nítida e diminuindo o cansaço visual no fim do dia.</p>
+        </div>
+
+        <div class="tech-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="5"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
+          <h3>Fotossensível</h3>
+          <p>Escurece sozinha quando pega sol e volta a clarear em ambientes fechados, funcionando como óculos de grau e solar em uma peça só.</p>
+        </div>
+
+        <div class="tech-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="13" rx="1.5"/><path d="M8 21h8M12 18v3"/></svg>
+          <h3>Blue Cut</h3>
+          <p>Filtra parte da luz azul emitida por celular, computador e TV, ajudando a reduzir a fadiga visual de quem passa o dia na tela.</p>
+        </div>
+
+        <div class="tech-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4l7 8-7 8M12 4l7 8-7 8"/></svg>
+          <h3>Alto índice</h3>
+          <p>Lentes mais finas e leves, indicadas para graus mais altos, sem o efeito de "fundo de garrafa" nem peso extra na armação.</p>
+        </div>
+
+        <div class="tech-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12h18M3 6h18M3 18h18"/><circle cx="8" cy="6" r="1.4" fill="currentColor" stroke="none"/><circle cx="14" cy="12" r="1.4" fill="currentColor" stroke="none"/><circle cx="10" cy="18" r="1.4" fill="currentColor" stroke="none"/></svg>
+          <h3>Multifocal digital</h3>
+          <p>Transição suave entre perto, médio e longe, com mapeamento digital que amplia as áreas de visão nítida em comparação à lente tradicional.</p>
+        </div>
+
+        <div class="tech-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5z"/></svg>
+          <h3>Polarizada</h3>
+          <p>Elimina o ofuscamento causado por reflexos em água, asfalto e vidro, sendo ideal para dirigir, pescar e atividades ao ar livre.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= DEPOIMENTOS ================= -->
+  <section class="section testimonials" id="depoimentos">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-tag">Quem já passou por aqui</div>
+        <h2>Clientes que enxergam melhor hoje</h2>
+      </div>
+      <div class="test-grid">
+        <div class="test-card">
+          <div class="quote-mark">"</div>
+          <p>Troquei para a lente antirreflexo e a diferença para dirigir à noite foi enorme. Atendimento sem pressa, explicaram tudo direitinho.</p>
+          <div class="who">Marcela T.</div>
+          <div class="role">Cliente desde 2022</div>
+        </div>
+        <div class="test-card">
+          <div class="quote-mark">"</div>
+          <p>Meu filho quebra óculos com facilidade, e o modelo infantil flexível aguentou tudo. Preço justo e entrega rápida.</p>
+          <div class="who">Rogério A.</div>
+          <div class="role">Pai de cliente</div>
+        </div>
+        <div class="test-card">
+          <div class="quote-mark">"</div>
+          <p>Fiz o exame de vista de graça e já saí com a armação escolhida. Achei que ia demorar dias, ficou pronto em menos de uma semana.</p>
+          <div class="who">Denise K.</div>
+          <div class="role">Cliente desde 2024</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTATO ================= -->
+  <section class="section contact" id="contato">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="section-tag">Contato</div>
+        <h2>Fale com a gente e agende seu exame</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div>
+          <div class="info-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            <div><h4>Endereço</h4><p>Av. Brasil, 1234 – Centro, Foz do Iguaçu – PR</p></div>
+          </div>
+          <div class="info-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+            <div><h4>Horário</h4><p>Segunda a sexta: 9h às 19h · Sábado: 9h às 13h</p></div>
+          </div>
+          <div class="info-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 4h16v16H4z"/><path d="M4 4l8 8 8-8"/></svg>
+            <div><h4>E-mail</h4><p>contato@eclipseotica.com.br</p></div>
+          </div>
+          <div class="info-row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3-8.7A2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .3 2 .7 3a2 2 0 01-.4 2.1L8 10.3a16 16 0 006 6l1.5-1.4a2 2 0 012.1-.4c1 .4 2 .6 3 .7a2 2 0 011.7 2z"/></svg>
+            <div><h4>Telefone</h4><p>(45) 99999-9999</p></div>
+          </div>
+        </div>
+
+        <div class="whats-card">
+          <h3>Agende seu exame de vista pelo WhatsApp</h3>
+          <p>Sem fila, sem espera no telefone. Fale com a gente agora e escolha o melhor dia e horário para o seu exame.</p>
+          <a class="whats-btn" href="https://wa.me/5545999999999?text=Ol%C3%A1!%20Quero%20agendar%20um%20exame%20de%20vista." target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.8 14.2c-.2.7-1.4 1.4-2 1.5-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3.1 0-1.5.8-2.2 1.1-2.5.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5.2.5.7 1.8.8 1.9.1.1.1.3 0 .5-.1.2-.1.3-.3.5l-.4.5c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1.2-.2.7-.8.9-1 .2-.3.4-.2.6-.1.2.1 1.5.7 1.8.8.3.1.5.2.6.3.1.2.1.9-.1 1.6z"/></svg>
+            Chamar no WhatsApp
+          </a>
+          <div class="hours-note">Respondemos de segunda a sábado, dentro do horário de funcionamento.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-logo">
+          <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="19" stroke="#ff6a1a" stroke-width="1.4"/><circle cx="20" cy="20" r="11" fill="#ff6a1a"/><circle cx="16" cy="17" r="7" fill="#171412"/></svg>
+          <span class="logo-text" style="color:#fff;">ECLIPSE <span style="color:#ff6a1a;">ÓTICA</span></span>
+        </div>
+        <p style="max-width:32ch; font-size:0.88rem; color:#b9b3aa;">Armações, lentes e exame de vista em Foz do Iguaçu, com atendimento próximo e sem pressa.</p>
+      </div>
+      <div class="foot-links">
+        <div class="foot-col">
+          <h5>Navegação</h5>
+          <a href="#catalogo">Armações</a>
+          <a href="#lentes">Lentes &amp; tecnologia</a>
+          <a href="#depoimentos">Depoimentos</a>
+          <a href="#contato">Contato</a>
+        </div>
+        <div class="foot-col">
+          <h5>Redes sociais</h5>
+          <a href="#" target="_blank" rel="noopener">Instagram</a>
+          <a href="#" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://wa.me/5545999999999" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Cristiely Martins.</span>
+      <span>Todos os direitos reservados.</span>
+    </div>
+  </div>
+</footer>
+
+<a class="float-whats" href="https://wa.me/5545999999999?text=Ol%C3%A1!%20Quero%20agendar%20um%20exame%20de%20vista." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm5.8 14.2c-.2.7-1.4 1.4-2 1.5-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3.1 0-1.5.8-2.2 1.1-2.5.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5.2.5.7 1.8.8 1.9.1.1.1.3 0 .5-.1.2-.1.3-.3.5l-.4.5c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1.2-.2.7-.8.9-1 .2-.3.4-.2.6-.1.2.1 1.5.7 1.8.8.3.1.5.2.6.3.1.2.1.9-.1 1.6z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
